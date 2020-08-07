@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yassui",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^14.0.27",
+    "typescript": "^3.9.7"
+  }
+}
